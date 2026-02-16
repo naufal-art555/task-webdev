@@ -7,7 +7,9 @@ nav {
   justify-content: space-between;
   box-sizing: border-box;
   background-color: rgb(255, 255, 255);
-  margin: 29px 135px;
+  margin-top: 29px;
+  margin-left: 135px;
+  margin-right: 135px;
 }
 nav img {
   display: flex;
@@ -81,5 +83,45 @@ nav ul :hover {
 /* hero */
 hero {
   display: flex;
-  margin-left: 135px;
+  box-sizing: border-box;
+  margin: 13.79px 135px;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+.teks-hero {
+  align-content: center;
+}
+.teks-hero h1 {
+  font-size: 64px;
+}
+.teks-hero h1 p {
+  font-weight: 300;
+}
+.teks-hero h2 {
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+.teks-hero h2 p {
+  display: inline;
+  font-size: 22px;
+  font-weight: 300;
+}
+.button {
+  display: inline;
+  margin-top: 40px;
+}
+.button a {
+  font-family: "Roboto", sans-serif;
+  border: 1px solid black;
+  padding: 16px 40px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-weight: 300;
+}
+.img-hero img {
+  display: flex;
+  width: 570px;
+  height: 670px;
 }
